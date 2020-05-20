@@ -35,7 +35,7 @@
             this.tNombre = new System.Windows.Forms.TextBox();
             this.tApellidos = new System.Windows.Forms.TextBox();
             this.tTelefono = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tListaSocios = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lnombre
@@ -95,14 +95,14 @@
             this.tTelefono.Size = new System.Drawing.Size(140, 22);
             this.tTelefono.TabIndex = 6;
             // 
-            // textBox1
+            // tListaSocios
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 134);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(702, 286);
-            this.textBox1.TabIndex = 7;
+            this.tListaSocios.Location = new System.Drawing.Point(32, 134);
+            this.tListaSocios.Multiline = true;
+            this.tListaSocios.Name = "tListaSocios";
+            this.tListaSocios.ReadOnly = true;
+            this.tListaSocios.Size = new System.Drawing.Size(702, 286);
+            this.tListaSocios.TabIndex = 7;
             // 
             // Form1
             // 
@@ -110,7 +110,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tListaSocios);
             this.Controls.Add(this.tTelefono);
             this.Controls.Add(this.tApellidos);
             this.Controls.Add(this.tNombre);
@@ -134,7 +134,7 @@
         private System.Windows.Forms.TextBox tNombre;
         private System.Windows.Forms.TextBox tApellidos;
         private System.Windows.Forms.TextBox tTelefono;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tListaSocios;
     }
 }
 
