@@ -36,6 +36,7 @@
             this.tApellidos = new System.Windows.Forms.TextBox();
             this.tTelefono = new System.Windows.Forms.TextBox();
             this.tListaSocios = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lnombre
@@ -70,9 +71,9 @@
             this.ltelefono.AutoSize = true;
             this.ltelefono.Location = new System.Drawing.Point(494, 31);
             this.ltelefono.Name = "ltelefono";
-            this.ltelefono.Size = new System.Drawing.Size(68, 17);
+            this.ltelefono.Size = new System.Drawing.Size(44, 17);
             this.ltelefono.TabIndex = 3;
-            this.ltelefono.Text = "Teléfono:";
+            this.ltelefono.Text = "Móvil:";
             // 
             // tNombre
             // 
@@ -104,12 +105,23 @@
             this.tListaSocios.Size = new System.Drawing.Size(702, 286);
             this.tListaSocios.TabIndex = 7;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(633, 79);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Guardar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tListaSocios);
             this.Controls.Add(this.tTelefono);
             this.Controls.Add(this.tApellidos);
@@ -135,6 +147,7 @@
         private System.Windows.Forms.TextBox tApellidos;
         private System.Windows.Forms.TextBox tTelefono;
         private System.Windows.Forms.TextBox tListaSocios;
+        private System.Windows.Forms.Button button1;
     }
 }
 
