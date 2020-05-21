@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // 21/05/2020
             string nombre = tNombre.Text;
             string apellidos = tApellidos.Text;
             string telefono = tTelefono.Text;
